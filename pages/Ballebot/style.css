@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 50px;
+}
+
+.navegacao {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: #fff2e7;
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.conteudo {
+    margin-bottom: 46px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.primeira-secao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-escrito-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo-principal {
+    font-size: 54px;
+    font-family: 'Righteous', sans-serif;
+    font-weight: 400;
+    color: #fff2e7;
+}
+
+.sub-titulo-principal {
+    font-size: 24px;
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    color: #ecd6c4;
+}
+
+.bottao-principal {
+    border: none;
+    Width: 185px;
+    Height: 67px;
+    border-radius: 20px;
+    
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    background-color: #ECD6C4;
+
+    font-size: 24px;
+    font-family: 'Sarala' sans-serif;
+    font-weight: 400;
+    color: #2F2325;
+    
+}
+
+.bottao-principal:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.segunda-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.titulo-segunda-secao {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 74px;
+
+    font-family: 'Righteous', sans-serif;
+    color: #fff2e7;
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-top: 48px;
+}
+
+.texto-segunda-secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-size: 18px; 
+    font-weight: 300;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
